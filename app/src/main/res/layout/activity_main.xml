@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custard_background">
+
+    <ListView
+        android:id="@+id/custard_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/divider" />
+
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Empty view for the empty table. -->
+        <TextView
+            android:id="@+id/empty_title_text"
+            style="@style/empty_view_text"
+            android:text="@string/empty_view_title_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/empty_subtitle_text"
+            style="@style/empty_view_text"
+            android:layout_below="@+id/empty_title_text"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="@string/empty_view_subtitle_text"
+            android:textSize="@dimen/text_standard" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add"
+        style="@style/standard_fab"
+        android:src="@drawable/ic_add"
+        android:tint="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_product_name_options">
+        <item>@string/name_mint_chip</item>
+        <item>@string/name_tiramisu</item>
+        <item>@string/name_hog_heaven</item>
+        <item>@string/name_cherry_amaretto_cheesecake</item>
+        <item>@string/name_caramel_cashew</item>
+        <item>@string/name_blue_moon</item>
+        <item>@string/name_badger_claw</item>
+        <item>@string/name_pistachio</item>
+        <item>@string/name_smores</item>
+        <item>@string/name_root_beer_float</item>
+        <item>@string/name_chocolate_almond</item>
+        <item>@string/name_banana_parfait</item>
+    </string-array>
+
+    <string-array name="array_product_size_options">
+        <item>@string/size_pint</item>
+        <item>@string/size_quart</item>
+        <item>@string/size_half_gallon</item>
+        <item>@string/size_gallon</item>
+    </string-array>
+</resources>

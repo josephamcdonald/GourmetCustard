@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Gourmet Custard</string>
+
+    <!-- Label for menu option that inserts dummy custard entry into custard table [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Entry</string>
+
+    <!-- Label for menu option that deletes all entries in the custard table [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Entries</string>
+
+    <!-- Title for the activity to add new custard entry [CHAR LIMIT=20] -->
+    <string name="edit_activity_add_entry">Add Custard Entry</string>
+
+    <!-- Title for the activity to edit current custard entry [CHAR LIMIT=20] -->
+    <string name="edit_activity_edit_entry">Edit Custard Entry</string>
+
+    <!-- Toast message when new custard entry has been saved [CHAR LIMIT=NONE] -->
+    <string name="edit_insert_entry_successful">Custard entry saved</string>
+
+    <!-- Toast message when new custard entry has failed to be saved [CHAR LIMIT=NONE] -->
+    <string name="edit_insert_entry_failed">Error saving entry</string>
+
+    <!-- Toast message in editor when current entry was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="edit_update_entry_successful">Custard entry updated</string>
+
+    <!-- Toast message in editor when current entry has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="edit_update_entry_failed">Error updating entry</string>
+
+    <!-- Toast message in editor when entry does not have all input fields populated [CHAR LIMIT=NONE] -->
+    <string name="edit_all_input_fields_required">All input fields required</string>
+
+    <!-- Text hint for product name field in the editor [CHAR LIMIT=30] -->
+    <string name="edit_hint_product_name">Custard Name</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="edit_hint_quantity">Quantity</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="edit_hint_price">0.00</string>
+
+    <!-- Text hint for suppler name field in the editor [CHAR LIMIT=30] -->
+    <string name="edit_hint_custard_supplier">Custard Supplier</string>
+
+    <!-- Text hint for supplier phone field in the editor [CHAR LIMIT=30] -->
+    <string name="edit_hint_supplier_phone">000\-000\-0000</string>
+
+    <!-- Label for editor menu option to save entry and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current entry [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current entry [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current entry [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog button text for the option to keep editing the current entry [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current entry [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this entry?</string>
+
+    <!-- Toast message in editor when current entry was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="edit_delete_entry_successful">Custard entry deleted</string>
+
+    <!-- Toast message in editor when current entry has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="edit_delete_entry_failed">Error deleting entry</string>
+
+
+    <!-- Label for dropdown menu option if the size is Pint [CHAR LIMIT=20] -->
+    <string name="size_pint">Pint</string>
+
+    <!-- Label for dropdown menu option if the size is Quart [CHAR LIMIT=20] -->
+    <string name="size_quart">Quart</string>
+
+    <!-- Label for dropdown menu option if the size is Half-Gallon [CHAR LIMIT=20] -->
+    <string name="size_half_gallon">Half-gallon</string>
+
+    <!-- Label for dropdown menu option if the size is Gallon [CHAR LIMIT=20] -->
+    <string name="size_gallon">Gallon</string>
+
+    <!-- Supplier Kopp's custard product names. -->
+    <string name="name_mint_chip">Mint Chip</string>
+    <string name="name_tiramisu">Tiramisu</string>
+    <string name="name_hog_heaven">Hog Heaven</string>
+    <string name="name_cherry_amaretto_cheesecake">Cherry Amaretto Cheesecake</string>
+
+    <!-- Supplier Oscar's custard product names. -->
+    <string name="name_caramel_cashew">Caramel Cashew</string>
+    <string name="name_blue_moon">Blue Moon</string>
+    <string name="name_badger_claw">Badger Claw</string>
+    <string name="name_pistachio">Pistachio</string>
+
+    <!-- Supplier Gilles custard product names. -->
+    <string name="name_smores">S\'mores</string>
+    <string name="name_root_beer_float">Root Beer Float</string>
+    <string name="name_chocolate_almond">Chocolate Almond</string>
+    <string name="name_banana_parfait">Banana Parfait</string>
+
+    <!-- Display strings. -->
+    <string name="name">Name:</string>
+    <string name="size">Size:</string>
+    <string name="price_dollar">"Price:  $"</string>
+    <string name="supplier_name">Supplier:</string>
+    <string name="supplier_phone">Supplier Phone:</string>
+    <string name="main_activity">MainActivity</string>
+    <string name="edit_activity">EditActivity</string>
+    <string name="empty_view_title_text">EMPTY INVENTORY\n
+        Press \"+\" to add custard entries.</string>
+    <string name="empty_view_subtitle_text">NOTE: All input fields are required.</string>
+    <string name="empty_string" />
+    <string name="entries_deleted">" entries deleted."</string>
+    <string name="new_entry">"New entry: "</string>
+    <string name="updated_entry">"Updated entry: "</string>
+    <string name="dollar">$</string>
+    <string name="timestamp">Timestamp:</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="absolute_zero_attained">Absolute zero attained</string>
+    <string name="each">ea.</string>
+    <string name="tel">tel:</string>
+    <string name="date_pattern">yyyy-MM-dd HH:mm:ss</string>
+    <string name="dollar_pattern">#.00</string>
+    <string name="navigation_next">navigation_next</string>
+    <string name="required_field">Required field</string>
+
+</resources>
