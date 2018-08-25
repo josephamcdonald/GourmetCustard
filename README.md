@@ -1,10 +1,6 @@
 # Gourmet Custard
 
-Inventory app for a gourmet frozen custard stand!
-
-## Getting Started
-
-Please use the code to install on your device.
+### Inventory app for a gourmet frozen custard stand!
 
 ## Screenshots
 
@@ -32,15 +28,15 @@ N/A
 
 ## Extras
 
-ContentProvider
+**ContentProvider**
 
-Contract
+**Contract**
 
-CursorAdapter
+**CursorAdapter**
 
-SQLiteOpenHelper
+**SQLiteOpenHelper**
 
-LoaderManager
+**LoaderManager**
 
 ## Acknowledgements
 
