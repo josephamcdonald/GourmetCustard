@@ -16,7 +16,7 @@ API Level: 21. Android 5.0 (LOLLIPOP)
 
 ## Versioning
 
-2.0
+3.0
 
 ## Author
 
