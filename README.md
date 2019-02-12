@@ -1,6 +1,6 @@
 # Gourmet Custard
 
-### Inventory app for a gourmet frozen custard stand!
+### Track inventory for your gourmet frozen custard stand!
 
 ## Screenshots
 
@@ -8,9 +8,9 @@
 
 ## Built With
 
-Android Studio 3.1.4
+Android Studio 3.3.1
 
-Gradle 4.4
+Gradle 4.10.1
 
 API Level: 21. Android 5.0 (LOLLIPOP)
 
@@ -26,7 +26,7 @@ Joseph McDonald
 
 N/A
 
-## Extras
+## Features
 
 **ContentProvider**
 
